@@ -131,6 +131,11 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+
+    html body{
+        overflow-x: hidden;
+        width: 100%;
+    }
     form{
         background-color: transparent;
         width: 100%;
